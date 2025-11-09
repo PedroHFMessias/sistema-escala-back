@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "target": "ES2020",         /* Nosso "alvo" de compilação */
+    "module": "CommonJS",        /* O formato de módulo que o Node.js clássico usa */
+    "moduleResolution": "Node",  /* Como o TypeScript encontra os módulos */
+    "esModuleInterop": true,     /* Permite 'import express from 'express'' */
+    "forceConsistentCasingInFileNames": true,
+    "strict": true,              /* Mantém o TypeScript rigoroso */
+    "skipLibCheck": true,        /* Pula a verificação de tipos em 'node_modules' */
+    "outDir": "./dist",          /* Onde o JavaScript compilado iria */
+    "rootDir": "./src"           /* Onde nosso código TypeScript vive */
+  },
+  "include": ["src/**/*"] /* Diz ao TS para olhar apenas dentro da pasta 'src' */
+}
